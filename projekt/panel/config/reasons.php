@@ -5,7 +5,6 @@
 	$reason_4 = "403 - Strona potrzebowala zbyt duzo czasu na odpowiedz...";
 	$reason_5 = "SQL error - Brak polaczenia z baza danych! Skontaktuj sie z administratorem strony.";
 	$reason_6 = "Musisz się zalogować.";
-	$reason_99 = "Nieznany blad. Skontaktuj sie z administratorem strony."
 
 
 ?> 
