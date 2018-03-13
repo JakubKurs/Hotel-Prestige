@@ -26,7 +26,7 @@
 
     <!-- Czcionki -->
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-    <link rel="stylesheet" href="fontello/css/fontello.css" />
+    <link rel="stylesheet" href="fontello/css/fontello.css" rel="stylesheet"/>
     <!-- END Czcionki -->
 
     <!--[if lt IE 9]>
@@ -143,15 +143,31 @@
       <p  class="text text-left">Royal Palm w Marakeszu – noc w najtańszym hotelu pokoju tam 250 euro, a za nocleg w penthousie należy zapłacić co najmniej 2300 euro. Czym wyróżnia się ten hotel na tle innych? Po pierwsze usytuowany jest w sposób, który zapiera dech w piersi widokiem zza okien. Na terenie hotelu mieści się jedna z najlepszych restauracji w kraju, zaś do największych rozrywek należy zaliczyć SPA i fitness, które udostępniają niezwykłe i bardzo wymyślne zabiegi kosmetyczne oraz lekcje gry w tenisa, golfa oraz liczne zajęcia sportowe.</p>
     </div>
   </article>
-<!--footer-->
-  <footer>
-    <div class="footer-style">
-      <i id="fb" class="icon-facebook-2"></i>
-      <i id="gadd" class="icon-gplus-1"></i>
-      <i id="tr" class="icon-tumblr"></i>
-      <i id="in" class="icon-instagram"></i>
+  <!--footer-->
+  <div class="socials">
+    <div class="socialdivs">
+      <a href="https://www.facebook.com/rambovv/">
+      <div class="fb">
+        <i  class="icon-facebook-2"></i>
+      </div>
+      <a href="https://twitter.com/koksmita142">
+      <div class="tw">
+        <i  class="icon-twitter-1"></i>
+      </div>
+      <a href="https://plus.google.com/u/0/114055447491704254708">
+      <div class="gplus">
+        <i  class="icon-gplus-1"></i>
+      </div>
+
+      <a href="https://www.youtube.com/channel/UCgS3sQarxHxNd0g6myx4_Sg">
+      <div class="yt">
+        <i  class="icon-youtube-play"></i>
+      </div>
+      </a>
+
+      <div style="clear:both"></div>
     </div>
-  </footer>
+    </div>
 
   <div style="color:Black;" id="myModal" class="modal fade" role="dialog">
     <div class="modal-dialog">
@@ -164,7 +180,7 @@
         </div>
         <div class="modal-body">
             <div class="row">
-                <div class="col-xs-6"> 
+                <div class="col-xs-6">
                     <div class="well">
                         <form id="loginForm" method="POST" action="panel/logowanie.php" novalidate="novalidate">
                             <div class="form-group">

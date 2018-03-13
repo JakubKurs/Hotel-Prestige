@@ -1,6 +1,5 @@
 
-.icon-user-outline:before { content: '\e800'; } /* '' */
+.icon-twitter-1:before { content: '\e804'; } /* '' */
+.icon-youtube-play:before { content: '\f16a'; } /* '' */
 .icon-facebook-2:before { content: '\f30c'; } /* '' */
 .icon-gplus-1:before { content: '\f30f'; } /* '' */
-.icon-tumblr:before { content: '\f315'; } /* '' */
-.icon-instagram:before { content: '\f32d'; } /* '' */
